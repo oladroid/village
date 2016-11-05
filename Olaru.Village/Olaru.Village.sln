@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25402.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{2F2CB273-9100-49D4-B2E5-AF90D29049EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olaru.Village.Model", "Olaru.Village.Model\Olaru.Village.Model.csproj", "{FF608E8F-00BB-4DA7-A729-7EEF015178D0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF608E8F-00BB-4DA7-A729-7EEF015178D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF608E8F-00BB-4DA7-A729-7EEF015178D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF608E8F-00BB-4DA7-A729-7EEF015178D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF608E8F-00BB-4DA7-A729-7EEF015178D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF608E8F-00BB-4DA7-A729-7EEF015178D0} = {2F2CB273-9100-49D4-B2E5-AF90D29049EA}
 	EndGlobalSection
 EndGlobal
